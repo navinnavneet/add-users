@@ -1,0 +1,16 @@
+.Persons {
+  width: 85vw;
+  background: rgb(227, 252, 252);
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+.Persons li {
+  list-style: none;
+}
+
+@media (min-width: 800px) {
+  .Persons {
+    width: 650px;
+  }
+}

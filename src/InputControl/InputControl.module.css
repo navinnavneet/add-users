@@ -1,0 +1,12 @@
+.InputControl {
+  width: 85vw;
+  background: rgb(227, 252, 252);
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+@media (min-width: 800px) {
+  .InputControl {
+    width: 650px;
+  }
+}

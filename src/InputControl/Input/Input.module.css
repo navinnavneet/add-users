@@ -1,0 +1,17 @@
+.Input {
+  width: 85%;
+  margin: 1rem auto;
+  padding: 5px;
+  display: block;
+  border: none;
+  color: rgb(51, 95, 95);
+}
+.Input:focus {
+  outline: none;
+}
+
+@media (min-width: 800px) {
+  .Input {
+    width: 300px;
+  }
+}
