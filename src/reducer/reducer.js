@@ -19,9 +19,13 @@ const reducer = (state = initialState, action) => {
         }
     } 
     if (action.type ==='CHANGE_INPUT') {
+        let newUser = action.payload.target.value.trim()
+        if (newUser[0]) {
+            newUser = newUser[0].toUpperCase() + newUser.slice(1)
+        }
         return {
             ...state,
-            newUser: action.payload.target.value
+            newUser: newUser
         }
     }
     if (action.type === 'ADD_USER') {
